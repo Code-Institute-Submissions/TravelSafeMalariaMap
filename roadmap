@@ -1,0 +1,9 @@
+1. Features:
+a.select country-user input
+b.map-zooming in the selected country
+c.display vaccination list
+
+2. Roadmap
+a.feature a.input select
+b.feature b.create the map, finding the country on map
+c.feature c.create content box, link data, display list (jquery)
