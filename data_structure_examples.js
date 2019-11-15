@@ -35,7 +35,7 @@ data["Afghanistan"] // [1234, 4567]
 
 var data = {
                 "Afghanistan" : { 
-                                  "coord" : [1234,4567],
+                                  "coord" : [1234,4567],33.9391° N, 67.7100° E
                                   "vacc" : ["vacc_a", "vacc_b", ...],
                                 }
             }
