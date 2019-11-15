@@ -12,21 +12,29 @@ function initMap() {
         //Add marker
         addMarker({coords:event.latLng});
     });
+var data = {
+                "Afghanistan" : { 
+                                  "coord" : [1234,4567],33.9391° N, 67.7100° E
+                                  "vacc" : ["vacc_a", "vacc_b", ...],
+                                }
+            }
 
+
+data["Afghanistan"] // [1234, 4567]
     // Array of markers
     var markers = [
         {
-        coords:{lat:33.9391,lng:-67.7100},
+        coords:{lat:33.9391,lng:67.7100},
         iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
         content:'<h1>Afghanistan</h1>'
         },
         {
-        coords:{lat:41.1533,lng:-20.1683},
+        coords:{lat:41.1533,lng:20.1683},
         iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
         content:'<h1>Albania</h1>'
         },
         {
-        coords:{lat:28.0339,lng:1.6596},
+        coords:{lat:28.0339,lng:-1.6596},
         iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
         content:'<h1>Algeria</h1>'
         }
