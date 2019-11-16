@@ -1,17 +1,17 @@
 function initMap() {
     var options = {
-        zoom:1,
+        zoom:3,
         center:{lat:51.476852, lng:-0.000500}
     }
     //New map
     var map = new google.maps.Map(document.getElementById('map'),  options);
 
     //Listen for click on map
-    google.maps.event.addListener(map, 'click',
-    function(event){
-        //Add marker
-        addMarker({coords:event.latLng});
-    });
+    // google.maps.event.addListener(map, 'click',
+    // function(event){
+    //     //Add marker
+    //     addMarker({coords:event.latLng});
+    // });
 // var data = {
 //                 "Afghanistan" : { 
 //                                   "coord" : [1234,4567],33.9391° N, 67.7100° E
@@ -48,11 +48,11 @@ function initMap() {
     // }
 
    // Add marker function
-    function addMarker(props){
-        var marker = new google.maps.Marker({
-        position:props.coords,
-        map:map
-    });
+    // function addMarker(props){
+    //     var marker = new google.maps.Marker({
+    //     position:props.coords,
+    //     map:map
+    // });
     
 //     // Check for customicon
 //     if(props.iconImage){
@@ -70,8 +70,11 @@ function initMap() {
 //         infoWindow.open(map, marker);
 //     });
 // }
+// }
 }
-}
+
+		
+	
     //   function initAutocomplete() {
     //     var map = new google.maps.Map(document.getElementById('map'), {
     //       center: {lat: -33.8688, lng: 151.2195},
