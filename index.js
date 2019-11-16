@@ -12,39 +12,40 @@ function initMap() {
         //Add marker
         addMarker({coords:event.latLng});
     });
-var data = {
-                "Afghanistan" : { 
-                                  "coord" : [1234,4567],33.9391° N, 67.7100° E
-                                  "vacc" : ["vacc_a", "vacc_b", ...],
-                                }
-            }
+// var data = {
+//                 "Afghanistan" : { 
+//                                   "coord" : [1234,4567],33.9391° N, 67.7100° E
+//                                   "vacc" : ["vacc_a", "vacc_b", ...],
+//                                 }
+//             }
 
 
-data["Afghanistan"] // [1234, 4567]
+// data["Afghanistan"] // [1234, 4567]
+
     // Array of markers
-    var markers = [
-        {
-        coords:{lat:33.9391,lng:67.7100},
-        iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
-        content:'<h1>Afghanistan</h1>'
-        },
-        {
-        coords:{lat:41.1533,lng:20.1683},
-        iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
-        content:'<h1>Albania</h1>'
-        },
-        {
-        coords:{lat:28.0339,lng:-1.6596},
-        iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
-        content:'<h1>Algeria</h1>'
-        }
+    // var markers = [
+    //     {
+    //     coords:{lat:33.9391,lng:67.7100},
+    //     iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
+    //     content:'<h1>Afghanistan</h1>'
+    //     },
+    //     {
+    //     coords:{lat:41.1533,lng:20.1683},
+    //     iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
+    //     content:'<h1>Albania</h1>'
+    //     },
+    //     {
+    //     coords:{lat:28.0339,lng:-1.6596},
+    //     iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
+    //     content:'<h1>Algeria</h1>'
+    //     }
 
-    ];
-    //Loop through markers
-    for(var i = 0; i < markers.length; i++){
-        //Add marker
-        addMarker(markers[i]);
-    }
+    // ];
+    // //Loop through markers
+    // for(var i = 0; i < markers.length; i++){
+    //     //Add marker
+    //     addMarker(markers[i]);
+    // }
 
    // Add marker function
     function addMarker(props){
@@ -53,22 +54,22 @@ data["Afghanistan"] // [1234, 4567]
         map:map
     });
     
-    // Check for customicon
-    if(props.iconImage){
-        // Set icon image
-        marker.setIcon(props.iconImage);
-    }
+//     // Check for customicon
+//     if(props.iconImage){
+//         // Set icon image
+//         marker.setIcon(props.iconImage);
+//     }
 
-    //Check content
-    if(props.content){
-        var infoWindow = new google.maps.InfoWindow({
-         content:props.content
-     });
+//     //Check content
+//     if(props.content){
+//         var infoWindow = new google.maps.InfoWindow({
+//          content:props.content
+//      });
 
-     marker.addListener('click', function(){
-        infoWindow.open(map, marker);
-    });
-}
+//      marker.addListener('click', function(){
+//         infoWindow.open(map, marker);
+//     });
+// }
 }
 }
     //   function initAutocomplete() {
