@@ -6,6 +6,21 @@ function initMap() {
     //New map
     var map = new google.maps.Map(document.getElementById('map'),  options);
 
+
+function initMap() {
+    var input = document.getElementById('searchMapInput');
+    
+    var autocomplete = new google.maps.places.Autocomplete(input);
+   
+    autocomplete.setComponentRestrictions({'country': ['in']});
+      
+    autocomplete.addListener('place_changed', function() {
+        var place = autocomplete.getPlace();
+        document.getElementById('location-snap').innerHTML = place.formatted_address;
+        document.getElementById('lat-span').innerHTML = place.geometry.location.lat();
+        document.getElementById('lon-span').innerHTML = place.geometry.location.lng();
+    });
+}
     //Listen for click on map
     // google.maps.event.addListener(map, 'click',
     // function(event){
