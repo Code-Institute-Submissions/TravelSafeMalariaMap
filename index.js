@@ -1,32 +1,32 @@
-function initMap() {
-    var options = {
-        zoom:2,
-        center:{lat:51.476852, lng:-0.000500}
-    }
-    //New map
-    var map = new google.maps.Map(document.getElementById('map'),  options);
+// function initMap() {
+//     var options = {
+//         zoom:2,
+//         center:{lat:51.476852, lng:-0.000500}
+//     }
+//     //New map
+//     var map = new google.maps.Map(document.getElementById('map'),  options);
 
 
-function initMap() {
-    var input = document.getElementById('searchMapInput');
+// function initMap() {
+//     var input = document.getElementById('searchMapInput');
     
-    var autocomplete = new google.maps.places.Autocomplete(input);
+//     var autocomplete = new google.maps.places.Autocomplete(input);
    
-    autocomplete.setComponentRestrictions({'country': ['in']});
+//     autocomplete.setComponentRestrictions({'country': ['in']});
       
-    autocomplete.addListener('place_changed', function() {
-        var place = autocomplete.getPlace();
-        document.getElementById('location-snap').innerHTML = place.formatted_address;
-        document.getElementById('lat-span').innerHTML = place.geometry.location.lat();
-        document.getElementById('lon-span').innerHTML = place.geometry.location.lng();
-    });
-}
-    //Listen for click on map
-    // google.maps.event.addListener(map, 'click',
-    // function(event){
-    //     //Add marker
-    //     addMarker({coords:event.latLng});
-    // });
+//     autocomplete.addListener('place_changed', function() {
+//         var place = autocomplete.getPlace();
+//         document.getElementById('location-snap').innerHTML = place.formatted_address;
+//         document.getElementById('lat-span').innerHTML = place.geometry.location.lat();
+//         document.getElementById('lon-span').innerHTML = place.geometry.location.lng();
+//     });
+// }
+//     Listen for click on map
+//     google.maps.event.addListener(map, 'click',
+//     function(event){
+//         //Add marker
+//         addMarker({coords:event.latLng});
+//     });
 // var data = {
 //                 "Afghanistan" : { 
 //                                   "coord" : [1234,4567],33.9391° N, 67.7100° E
@@ -37,37 +37,37 @@ function initMap() {
 
 // data["Afghanistan"] // [1234, 4567]
 
-    // Array of markers
-    // var markers = [
-    //     {
-    //     coords:{lat:33.9391,lng:67.7100},
-    //     iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
-    //     content:'<h1>Afghanistan</h1>'
-    //     },
-    //     {
-    //     coords:{lat:41.1533,lng:20.1683},
-    //     iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
-    //     content:'<h1>Albania</h1>'
-    //     },
-    //     {
-    //     coords:{lat:28.0339,lng:-1.6596},
-    //     iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
-    //     content:'<h1>Algeria</h1>'
-    //     }
+//     Array of markers
+//     var markers = [
+//         {
+//         coords:{lat:33.9391,lng:67.7100},
+//         iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
+//         content:'<h1>Afghanistan</h1>'
+//         },
+//         {
+//         coords:{lat:41.1533,lng:20.1683},
+//         iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
+//         content:'<h1>Albania</h1>'
+//         },
+//         {
+//         coords:{lat:28.0339,lng:-1.6596},
+//         iconImage:'http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png',
+//         content:'<h1>Algeria</h1>'
+//         }
 
-    // ];
-    // //Loop through markers
-    // for(var i = 0; i < markers.length; i++){
-    //     //Add marker
-    //     addMarker(markers[i]);
-    // }
+//     ];
+//     //Loop through markers
+//     for(var i = 0; i < markers.length; i++){
+//         //Add marker
+//         addMarker(markers[i]);
+//     }
 
-   // Add marker function
-    // function addMarker(props){
-    //     var marker = new google.maps.Marker({
-    //     position:props.coords,
-    //     map:map
-    // });
+//    Add marker function
+//     function addMarker(props){
+//         var marker = new google.maps.Marker({
+//         position:props.coords,
+//         map:map
+//     });
     
 //     // Check for customicon
 //     if(props.iconImage){
@@ -86,7 +86,7 @@ function initMap() {
 //     });
 // }
 // }
-}
+// }
 
 		
 	
