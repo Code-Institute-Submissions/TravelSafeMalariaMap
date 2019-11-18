@@ -13,6 +13,7 @@ the transition from smaller amount of vaccines to bigger amount.
 ----
 # Wireframe
 
+Under images folder, wireframe.png file.
 
 ----
 ## Features
@@ -28,10 +29,10 @@ the transition from smaller amount of vaccines to bigger amount.
 ----
 ## Technologies used
 
-* [JavaScript] (https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js)
+* [JavaScript](https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js)
 JavaScript  syntax was used to develop the main part of the functionality of the web page.
 
-* [CSS] ()
+* [CSS](https://www.w3schools.com/css/css_intro.asp)
 I used CSS to style mostly on the header part to illustrate the vaccine groups.
 
 * [Bootstrap v3.3.7](https://getbootstrap.com/docs/3.3/getting-started/#download) 
@@ -68,8 +69,7 @@ iii Internet Explorer
 ----
 ## Deployment
  
-The hosting platform for this site is GitHub. Here is the link for
-my site https://martakortslaur.github.io/TravelsafeVaccinationmap/. 
+The hosting platform for this site is GitHub. Here is the link for my site https://martakortslaur.github.io/TravelsafeVaccinationmap/. 
 
 ----
 ## Credits
