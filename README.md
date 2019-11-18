@@ -11,7 +11,7 @@ Different colors are used to illustrate the four groups of vaccines. From green 
 the transition from smaller amount of vaccines to bigger amount.
 
 ----
-# Wireframe
+## Wireframe
 
 Under images folder, wireframe.png file.
 
