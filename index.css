@@ -14,6 +14,7 @@
     outline: none;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
+
 #searchMapInput {
     background-color: #fff;
     font-family: Roboto;
@@ -23,13 +24,14 @@
     padding: 0 11px 0 13px;
     text-overflow: ellipsis;
     width: 50%;
- }
+}
+
 #searchMapInput:focus {
- border-color: #4d90fe;
- }
+    border-color: #4d90fe;
+}
 
  #geoData {
-         border-bottom: 0px;
+    border-bottom: 0px;
     margin-bottom: 0px;
     opacity: 0.6;
     font-size:17px;
@@ -38,8 +40,8 @@
  }
  
  #gmap_canvas {
-        width:100%;
-        height:30em;
+    width:100%;
+    height:30em;
 }      
 
 html, body {
@@ -49,32 +51,36 @@ html, body {
     background-color: #6da783;
 }
 
-#map {
+/* #map {
     min-height: 360px;
     width: 100%;
     float: center;
-}
+} */
+
 .jumbotron {
     position: relative;
-    font-size: 4rem;
+    /* font-size: 4rem; */
     background-color: #6da783;
     font-family: 'Alatsi', sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    text-align: center;
-    
+    /* text-transform: uppercase; */
+    /* font-weight: 700; */
+    /* text-align: center; */
     /* position: absolute;
     top: 2vh; */
 }
+
 .container {
     background-color: #6da783;
 }
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 h5 {
     opacity: 0.8;
 }
+
 p {
     border-bottom: 0px;
     margin-bottom: 0px;
@@ -82,6 +88,7 @@ p {
     font-size:17px;
     font-weight:300;
 }
+
 h6 {
     text-align: center;
     font-size: 15px;
@@ -89,161 +96,163 @@ h6 {
 /* Vaccination groups*/
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .col-3 {
-  float: left;
-  padding: 15px;
-  font-size: 30px;
+    float: left;
+    padding: 15px;
+    font-size: 30px;
 }
 
 .col-9 {
-  float: right;
-  padding: 15px;
-  /* font-size: 10px; */
+    float: right;
+    padding: 15px;
+    /* font-size: 10px; */
 }
 
 .groups ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-size: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
 }
 
 #one {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #64e291;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #64e291;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 #one:hover {
-  background-color: #b1eec6;
+    background-color: #90e4ad;
 }
+
 #two {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #e6e56c;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #e6e56c;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
 #two:hover {
-  background-color: #eeeea7;
+    background-color: #e0e093;
 }
 
 #three  {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #fec771;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #fec771;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
 #three:hover {
-  background-color: #e9cc9d;
+    background-color: #e9cc9d;
 }
+
 #four  {
-  padding: 8px;
-  margin-bottom: 7px;
-  background-color: #eb7070;
-  color: #ffffff;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #eb7070;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
 #four:hover {
-  background-color: #eba8a8;
+    background-color: #eba8a8;
 }
 
 #first {
-padding: 8px;
-  margin-bottom: 7px;
-  background-color: #6da783;
-  color: #64e291;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #6da783;
+    color: #64e291;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
 #second {
-
-padding: 8px;
-  margin-bottom: 7px;
-  background-color: #6da783;
-  color: #e6e56c;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #6da783;
+    color: #e6e56c;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
 #third {
- 
-padding: 8px;
-  margin-bottom: 7px;
-  background-color: #6da783;
-  color: #fec771;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #6da783;
+    color: #fec771;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
 #fourth {
-
-padding: 8px;
-  margin-bottom: 7px;
-  background-color: #6da783;
-  color: #eb7070;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #6da783;
+    color: #eb7070;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
+
 /*the container must be positioned relative:*/
 .autocomplete {
-  position: relative;
-  display: inline-block;
-  margin-top: 0px;
+    position: relative;
+    display: inline-block;
+    margin-top: 0px;
 }
 
 input {
-  border: 1px solid transparent;
-  background-color: #f1f1f1;
-  padding: 10px;
-  font-size: 16px;
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size:18px;
 }
 
 input[type=text] {
-  background-color: #f1f1f1;
-  width: 100%;
+    background-color: #f1f1f1;
+    width: 100%;
 }
 
 input[type=submit] {
-  background-color: DodgerBlue;
-  color: #fff;
-  cursor: pointer;
+    background-color: DodgerBlue;
+    color: #fff;
+    cursor: pointer;
 }
 
 .autocomplete-items {
-  position: absolute;
-  border: 1px solid #d4d4d4;
-  border-bottom: none;
-  border-top: none;
-  z-index: 99;
-  /*position the autocomplete items to be the same width as the container:*/
-  top: 100%;
-  left: 0;
-  right: 0;
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
 }
 
 .autocomplete-items div {
-  padding: 10px;
-  cursor: pointer;
-  background-color: #fff; 
-  border-bottom: 1px solid #d4d4d4; 
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff; 
+    border-bottom: 1px solid #d4d4d4; 
 }
 
 /*when hovering an item:*/
 .autocomplete-items div:hover {
-  background-color: #e9e9e9; 
+    background-color: #e9e9e9; 
 }
 
 /*when navigating through the items using the arrow keys:*/
 .autocomplete-active {
-  background-color: DodgerBlue !important; 
-  color: #ffffff; 
+    background-color: DodgerBlue !important; 
+    color: #ffffff; 
 }
 
 /* .custom-select {
