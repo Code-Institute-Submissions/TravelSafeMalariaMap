@@ -111,4 +111,3 @@ function autocomplete(inp, arr) {
 $("#myInput").change(function () {
     alert("A text to be seen.");
 });
-
