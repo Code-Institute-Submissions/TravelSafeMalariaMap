@@ -5,41 +5,91 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script> -->
-    <link href="//colorhunt.co/palette/153787" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+	<!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=places"></script> -->
+	<link href="//colorhunt.co/palette/153787" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
 
 
 	<title>TravelsafeVaccinationmap</title>
 
 </head>
+
 <body>
-<div class="jumbotron jumbotron-fluid">
-<div class="container"><h3>Travel Safe-Vaccination Map</h3>
-<h5>Vaccination recommendations depend on the type of trip planned and how long it will take. Based on this and the risk of infection, trips are divided into four groups:</h5>
-<div class="row">
-  <div class="col-3 groups">
-    <ul>
-      <li id="one"><h6>Group 1</h6></li>
-      <li id="two"><h6>Group 2</h6></li>
-      <li id="three"><h6>Group 3</h6></li>
-      <li id="four"><h6>Group 4</h6></li>
-    </ul>
-  </div>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h3>Travel Safe-Vaccination Map</h3>
+			<h5>Vaccination recommendations depend on the type of trip planned and how long it will take. Based on this
+				and the risk of infection, trips are divided into four groups:</h5>
+			<div class="row">
+				<div class="col-3 groups">
+					<ul>
+						<li id="one">
+							<h6>Group 1</h6>
+						</li>
+					</ul>
+				</div>
+				<div class="col-9 groups">
+					<ul>
+						<li id="first">
+							<h6>Business or conference trips to the capital or larger cities for a few days.</h6>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3 groups">
+					<ul>
+						<li id="two">
+							<h6>Group 2</h6>
+						</li>
+					</ul>
+				</div>
+				<div class="col-9 groups">
+					<ul>
+						<li id="second">
+							<h6>Tourist trips of up to 4 weeks duration, visiting countryside with poor hygiene
+								conditions.</h6>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3 groups">
+					<ul>
+						<li id="three">
+							<h6>Group 3</h6>
+						</li>
+					</ul>
+				</div>
+				<div class="col-9 groups">
+					<ul>
+						<li id="third">
+							<h6>Trips of several months or visiting relatives.</h6>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3 groups">
+					<ul>
+						<li id="four">
+							<h6>Group 4</h6>
+						</li>
+					</ul>
+				</div>
+				<div class="col-9 groups">
+					<ul>
+						<li id="fourth">
+							<h6>Stays of more than half a year or repeated visits to a risk area.</h6>
+						</li>
+					</ul>
+				</div>
+			</div>
 
-  <div class="col-9 groups">
-  <ul>
-      <li id="first"><h6>Business or conference trips to the capital or larger cities for a few days.</h6></li>
-      <li id="second"><h6>Tourist trips of up to 4 weeks duration, visiting countryside with poor hygiene conditions.</h6></li>
-      <li id="third"><h6>Trips of several months or visiting relatives.</h6></li>
-      <li id="fourth"><h6>Stays of more than half a year or repeated visits to a risk area.</h6></li>
-    </ul>
-  </div>
-</div>
 
-<!-- <div class="custom-select" style="width:200px" id="country">
+			<!-- <div class="custom-select" style="width:200px" id="country">
 		<select>
             <option value="0">Select country:</option>
             <option value="1">Afghanistan</option>
@@ -47,20 +97,20 @@
             <option value="3">Algeria</option>
         </select>
 </div> -->
- <!-- <form action="/action_page.php">
+			<!-- <form action="/action_page.php">
   Search Google for more information about vaccination requirements: <input type="search" name="q"><br>
   <input type="submit">
 </form> -->
-<!-- Make sure the form has the autocomplete function switched off: -->
+			<!-- Make sure the form has the autocomplete function switched off: -->
 
-<p>Search by country name to find out what vaccines are recommended:</p>
-<form autocomplete="off" action="/action_page.php">
-  <div class="autocomplete" style="width:300px;">
-    <input id="myInput" type="text" name="myCountry" placeholder="Country">
+			<p>Search by country name to find out what vaccines are recommended:</p>
+			<form autocomplete="off" action="/action_page.php">
+				<div class="autocomplete" style="width:300px;">
+					<input id="myInput" type="text" name="myCountry" placeholder="Country">
   </div>
-  <input type="submit" >
+					<input type="submit" >
 </form>
-<!-- <input id="searchMapInput" class="mapControls" type="text" placeholder="Enter a location">
+					<!-- <input id="searchMapInput" class="mapControls" type="text" placeholder="Enter a location">
 <div id="map"></div>
 <ul id="geoData">
     <li>Full Address: <span id="location-snap"></span></li>
@@ -68,12 +118,16 @@
     <li>Longitude: <span id="lon-span"></span></li>
 </ul> -->
 
-<div id="map"></div>
+					<div id="map"></div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="index.js"></script>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi8hsqT_zzHgVYqkK5KBGKve9gi8HPXQs&libraries=places&callback=initMap"></script>
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+					<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+                    <script src="index.js"></script>
+					<script defer
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi8hsqT_zzHgVYqkK5KBGKve9gi8HPXQs&libraries=places&callback=initMap">
+					</script>
 </body>
+
 </html>
