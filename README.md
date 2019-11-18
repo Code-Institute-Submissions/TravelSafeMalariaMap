@@ -13,7 +13,7 @@ the transition from smaller amount of vaccines to bigger amount.
 ----
 ## Wireframe
 
-![alt-H6 text](https://github.com/martakortslaur/TravelsafeVaccinationmap/blob/master/images/wireframe.png "Logo Title Text 1")
+The wireframe for thi sproject is under images folder.
 
 ----
 ## Features
@@ -61,10 +61,7 @@ The W3C shows that we conform to the standards of HTML and CSS.
 
 3.All Javascript and jQuery code on the website has been tested using [JSHint](https://jshint.com/).
 
-4.Site was viewed and tested in the following browsers: 
-i Google Chrome 
-ii Mozilla Firefox 
-iii Internet Explorer 
+4.Site was viewed and tested in Google Chrome, Mozilla Firefox and Internet Explorer.
 
 ----
 ## Deployment
