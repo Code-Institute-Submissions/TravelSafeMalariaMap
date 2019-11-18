@@ -11,6 +11,10 @@ Different colors are used to illustrate the four groups of vaccines. From green 
 the transition from smaller amount of vaccines to bigger amount.
 
 ----
+# Wireframe
+
+
+----
 ## Features
 
 * First feature is the user insput to select a country.
@@ -25,7 +29,7 @@ the transition from smaller amount of vaccines to bigger amount.
 ## Technologies used
 
 * [JavaScript] (https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js)
-JavaScript  syntax was used to develop the majority of the functionality of the web page.
+JavaScript  syntax was used to develop the main part of the functionality of the web page.
 
 * [CSS] ()
 I used CSS to style mostly on the header part to illustrate the vaccine groups.
