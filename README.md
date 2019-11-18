@@ -2,14 +2,14 @@
 
 The aim of my project is to show the user what vaccines are recommended to take before going
 to a specific country. It uses the google map to show where this country is.
-
-##UX
+----
+## UX
 
 The goal of the project is to be informative and easy to read.
 Different colors are used to illustrate the four groups of vaccines. From green to red the colors illustrate
 the transition from smaller amount of vaccines to bigger amount.
-
-##Features
+----
+## Features
 
 *First feature is the user insput to select a country.
 *Second feature is zooming in the selected country on the map (in the process).
@@ -19,8 +19,8 @@ the transition from smaller amount of vaccines to bigger amount.
 1.Get all the countries in the search option and to show their required vaccines.
 2.Finish what had yet to implement.
 
-
-##Technologies used
+----
+## Technologies used
 
 *[JavaScript] (https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js)
 JavaScript  syntax was used to develop the majority of the functionality of the web page.
@@ -40,9 +40,9 @@ Maps Javascript API is a library that was used in order to add a map on the page
  -[Bootstrap.CSS](https://getbootstrap.com),
  -Bootstrap.js;
  -Jquery.js,
- -
-
-##Testing
+ -Googleapis google maps library.
+----
+## Testing
 
 1.All HTML and CSS code used on the site has been tested using
 [The W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/) and
@@ -58,15 +58,16 @@ i Google Chrome
 ii Mozilla Firefox 
 iii Internet Explorer 
 
-##Deployment
+----
+## Deployment
  
 The hosting platform for this site is GitHub. Here is the link for
 my site https://martakortslaur.github.io/TravelsafeVaccinationmap/. 
 
 
-##Credits
+## Credits
 
-
-https://www.itsolutionstuff.com/post/google-maps-api-autocomplete-address-search-box-with-map-exampleexample.html
-https://validator.w3.org/nu/#textarea
-
+The idea of the project came from visiting this
+[website](https://www.vaktsineeri.ee/reisivaktsineerimine-ja-profulaktika).
+The code for getting the autocomplete select box for user input I found
+[here](https://www.w3schools.com/howto/howto_js_autocomplete.asp).
