@@ -13,8 +13,7 @@ the transition from smaller amount of vaccines to bigger amount.
 ----
 ## Wireframe
 
-Under images folder, wireframe.png file.
-![alt text](https://github.com/martakortslaur/TravelsafeVaccinationmap/blob/master/images/wireframe.png "Logo Title Text 1")
+![alt-H6 text](https://github.com/martakortslaur/TravelsafeVaccinationmap/blob/master/images/wireframe.png "Logo Title Text 1")
 
 ----
 ## Features
