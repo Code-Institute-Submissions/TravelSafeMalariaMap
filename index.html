@@ -38,7 +38,7 @@
     </header>
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
-			<h3>Travel Safe-Vaccination Map</h3>
+			<h2>Travel Safe-Vaccination Map</h2>
 			<h5>Vaccination recommendations depend on the type of trip planned and how long it will take. Based on this
 				and the risk of infection, trips are divided into four groups:</h5>
 			<div class="row">
@@ -109,15 +109,15 @@
 		</div>
     </div>
 			    <p>Search by country name to find out what vaccines are recommended:</p>
-			<form autocomplete="off" action="/action_page.php">
+	<!-- <form autocomplete="off" action="/action_page.php">
 				<div class="autocomplete" style="width:300px;">
-					<input id="myInput" type="text" name="myCountry" placeholder="Country">
+					<input id="myInput" type="text" name="myCountry" placeholder="Country"> -->
 
     <!-- added as a reference to maybe use for re-submitting 13.01.2019 from https://github.com/jakearchibald/payments/blob/master/www/checkout.html -->
-                <div class="field-row">
-            <div class="field field-major">
-              <label for="id_bill-country">Country</label>
-              <select id="id_bill-country" class="select" autocomplete="billing country" name="billing-country">
+    <div class="field-row">
+        <div class="field field-major">
+            <label for="id_country">Country</label>
+              <select id="id_country" class="select" autocomplete="country" name="country">
                 <option value="">Select…</option>
                 <option value="AF">Afghanistan</option>
                 <option value="AX">Åland Islands</option>
@@ -250,7 +250,7 @@
                 <option value="LT">Lithuania</option>
                 <option value="LU">Luxembourg</option>
                 <option value="MO">Macao</option>
-                <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                <option value="MK">North-Macedonia</option>
                 <option value="MG">Madagascar</option>
                 <option value="MW">Malawi</option>
                 <option value="MY">Malaysia</option>
@@ -370,21 +370,20 @@
                 <option value="ZW">Zimbabwe</option>
               </select>
             </div>
-                </div>
-					<input type="submit" >
-            </form>
-				<div id="map"></div>
+        </div>
+	<input type="submit" >
+    </form>
+	<div id="map"></div>
 
     <footer class="container-fluid">
         <div class="row nav-footer-color">
             <div class="col-sm-4">
                 <h5 class="footer-headings uppercase">Links to reference pages:</h5>
-                
                 <ul class="list-inline footer-links">
                     <li class="list-inline-item">
-                        <a target="_blank" aria-label="Link to Facebook" rel="noopener" href="https://www.facebook.com/EURO2020/">
-                            <i class="fas fa-external-link-square-alt"  aria-hidden="true"></i>
-                            <span class="sr-only">Facebook</span>
+                        <a target="_blank" aria-label="Link to Vaktsineeri.ee" rel="noopener" href="https://www.vaktsineeri.ee/en/travel-vaccination">
+                            <i class="fas fa-external-link-square-alt" aria-hidden="true"></i>
+                            <span class="sr-only">Vaktsineeri.ee</span>
                         </a>
                     </li>
                     <li class="list-inline-item">
