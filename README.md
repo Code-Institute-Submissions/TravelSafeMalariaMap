@@ -13,7 +13,7 @@ the transition from smaller amount of vaccines to bigger amount.
 ----
 ## Wireframe
 
-The wireframe for thi sproject is under images folder.
+The wireframe for this project is under images folder.
 
 ----
 ## Features

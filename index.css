@@ -240,3 +240,34 @@ input[type=submit] {
     color: #ffffff; 
 }
 
+/* Footer*/
+.contact-links li a i {
+        color: #fafafa;
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #f7be16;
+        border-radius: 50%;
+        transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+    }
+
+
+.footer-links li a i {
+        color: #fafafa;
+        font-size: 25px;
+        text-align: center;
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+        border: 3px solid #f7be16;
+        border-radius: 50%;
+        transition: all 0.35s ease-in-out;
+        -o-transition: all 0.35s ease-in-out;
+        -moz-transition: all 0.35s ease-in-out;
+        -webkit-transition: all 0.35s ease-in-out;
+    }

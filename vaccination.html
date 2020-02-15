@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
+	<link href="//colorhunt.co/palette/153787" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Alatsi&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+
+	<title>TravelsafeVaccinationmap</title>
+
+</head>
+
+<body>
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg nav-footer-color navbar-light fixed-top">
+            <a class="navbar-brand" href="index.html">
+            <i class="fas fa-syringe"></i>
+                <span class="navbar-brand-text">Travel Vaccination</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Home</a>
+                    <a class="nav-item nav-link" href="vaccination.html">Information</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h3>Travel Safe-Vaccination Map</h3>
+			<h5>Vaccination recommendations depend on the type of trip planned and how long it will take. Based on this
+				and the risk of infection, trips are divided into four groups:</h5>
+			<div class="row">
+				<div class="col-3 groups">
+					<ul>
+						<li id="one">
+							<h6>Group 1</h6>
+						</li>
+					</ul>
+				</div>
+				<div class="col-9 groups">
+					<ul>
+						<li id="first">
+							<h6>Business or conference trips to the capital or larger cities for a few days.</h6>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3 groups">
+					<ul>
+						<li id="two">
+							<h6>Group 2</h6>
+						</li>
+					</ul>
+				</div>
+				<div class="col-9 groups">
+					<ul>
+						<li id="second">
+							<h6>Tourist trips of up to 4 weeks duration, visiting countryside with poor hygiene
+								conditions.</h6>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3 groups">
+					<ul>
+						<li id="three">
+							<h6>Group 3</h6>
+						</li>
+					</ul>
+				</div>
+				<div class="col-9 groups">
+					<ul>
+						<li id="third">
+							<h6>Trips of several months or visiting relatives.</h6>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-3 groups">
+					<ul>
+						<li id="four">
+							<h6>Group 4</h6>
+						</li>
+					</ul>
+				</div>
+				<div class="col-9 groups">
+					<ul>
+						<li id="fourth">
+							<h6>Stays of more than half a year or repeated visits to a risk area.</h6>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+    </div>
+
+
+    <footer class="container-fluid">
+        <div class="row nav-footer-color">
+            <div class="col-sm-4">
+                <h5 class="footer-headings uppercase">Links to reference pages:</h5>
+                
+                <ul class="list-inline footer-links">
+                    <li class="list-inline-item">
+                        <a target="_blank" aria-label="Link to Facebook" rel="noopener" href="https://www.facebook.com/EURO2020/">
+                            <i class="fas fa-external-link-square-alt"  aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a target="_blank" aria-label="Link to Twitter" rel="noopener" href="https://twitter.com/UEFAEURO">
+                            <i class="fas fa-external-link-square-alt"  aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+					<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+					<script src="https://code.jquery.com/jquery-3.2.1.js"
+						integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous">
+					</script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+					<script src="index.js"></script>
+					<script defer
+						src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi8hsqT_zzHgVYqkK5KBGKve9gi8HPXQs&libraries=places&callback=initMap">
+					</script>
+</body>
+
+</html>
