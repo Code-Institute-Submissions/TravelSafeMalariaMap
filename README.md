@@ -35,8 +35,6 @@ I used CSS to style mostly on the header part to illustrate the vaccine groups.
 * [Bootstrap v3.3.7](https://getbootstrap.com/docs/3.3/getting-started/#download) 
 Bootstrap was used to give the project a simple and responsive layout.
 
-* [JQuery](https://cdnjs.com/libraries/jquery/)
-
 * [Maps Javascript API](https://developers.google.com/maps/documentation/javascript/tutorial)
 Maps Javascript API is a library that was used in order to add a map on the page.
 
