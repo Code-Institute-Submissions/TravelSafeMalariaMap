@@ -74,9 +74,7 @@ variable (on the js file row 230 initMap) and one undefined variable (231	google
 ----
 ## Deployment
  
-The hosting platform for this site is GitHub. Here is the link for my site https://martakortslaur.github.io/TravelsafeVaccinationmap/. It is still under that
-webpage name, but I changed it to Travel Safe Malaria Map, because there wasn't available json or other format files for the four groups of vaccines
-and I chose something that is available in a pdf form and typed the data to my code myself.
+The hosting platform for this site is GitHub. Here is the link for my site https://martakortslaur.github.io/TravelSafeMalariaMap/. 
 
 ----
 ## Credits
