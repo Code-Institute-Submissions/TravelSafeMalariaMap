@@ -26,15 +26,15 @@ the risk of malaria transmission is negligible or non - existent, but there is a
 transmission in Atlantic forest areas of the states of São Paulo, Minas Gerais, Rio de Janeiro, and Espirito\
 Santo.Detailed information on the epidemiological situation of malaria in Brazil is available at\
 www.saude.gov.br / malaria. "],
-    Brunei_Darussalam: ['Type B', "Human P. knowlesi infection has been reported. "],
-    Burkina_Faso: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
+    Brunei : ['Type B', "Human P. knowlesi infection has been reported. "],
+    "Burkina Faso": ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
     Burundi: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
     "Cape Verde" : ['WHO recommended prevention in risk areas: Type A', "Limited malaria risk due predominantly to P. falciparum exists from August through November in Santiago Island and in Boa Vista Island. "],
     Cambodia: ['WHO recommended prevention in risk areas: Type C', "Malaria risk due to P. falciparum and P. vivax exists throughout the year in forested rural areas. Phnom Penh and areas close to Tonle Sap (Siem Reap) are not at risk. Risk within the tourist area surrounding\
                   Angkor Wat is negligible.P.falciparum resistance to artesunate, mefloquine, lumefantrine, and piperaquine has been reported in western Cambodia and extends to the centre of the country.\
                   P.vivax resistance to chloroquine has been reported in eastern Cambodia.  "],
     Cameroon: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
-    Central_African_Republic: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
+    "Central African Republic" : ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
     Chad: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
     China: ['WHO recommendedpreventioninriskareas: Type A for non-border areas in Yunnan', 'Type C  for border areas in Yunnan'],
     Colombia: ['Recommendedpreventioninallriskareas:Type C', "Malaria risk is high in the following municipalities of the departments of Antioquia (El Bagre, Vigía del\
@@ -56,12 +56,12 @@ www.saude.gov.br / malaria. "],
                     A lesser risk exists in som"],
     Comoros: ['Type C', ": MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
     Congo: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
-    Costa_Rica: ['Recommendedpreventioninriskareas:Type A', "MalariariskhistoricallyduealmostexclusivelytoP.vivax.Negligibleornoriskofmalariatransmissionexistsinthecountry,exceptforverylowriskinthecantonofMatina,LimonProvince."],
-    //   Cote_D'Ivoire : [],
-    South_Korea: ['WHO recommended prevention in risk areas: Type A ', "Limited malaria risk due exclusively to P. vivax exists in some southern areas. "],
-    Democratic_Republic_Of_The_Kongo: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country."],
+    "Costa Rica" : ['Recommendedpreventioninriskareas:Type A', "MalariariskhistoricallyduealmostexclusivelytoP.vivax.Negligibleornoriskofmalariatransmissionexistsinthecountry,exceptforverylowriskinthecantonofMatina,LimonProvince."],
+    "Côte d'Ivoire": ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
+    "South Korea" : ['WHO recommended prevention in risk areas: Type A ', "Limited malaria risk due exclusively to P. vivax exists in some southern areas. "],
+    "Democratic Republic of the Kongo" : ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country."],
     Djibouti: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
-    Dominican_Republic: ['WHO recommended prevention in risk areas: Type C', "Malaria risk due exclusively to P. falciparum exists throughout the year, especially in the western provinces\
+    "Dominican Republic" : ['WHO recommended prevention in risk areas: Type C', "Malaria risk due exclusively to P. falciparum exists throughout the year, especially in the western provinces\
                 of Dajabón, Elias Pina, and San Juan.In 2015, transmission increased in the National District and the\
                 provinces of Santo Domingo and La Altagracia, specifically in Bávaro district.Risk in other areas is low to\
                 negligible.There is no evidence of P.falciparum resistance to any antimalarial drug."],
@@ -72,11 +72,11 @@ www.saude.gov.br / malaria. "],
                 falciparum malaria is present in some provinces of the country with predominance on the coast, especially\
 the province of Esmeraldas as well as in the Amazon region, especially the provinces of Pastaza and Morano Santiago. "],
     Egypt: ['None', "Very limited malaria risk due to P. falciparum and P. vivax may exist from June through October in El Faiyûm Governorate. No indigenous cases have been reported since 1998. "],
-    El_Salvador: ['WHO recommended prevention in risk areas: Type A', "Very limited malaria risk due almost exclusively to P. vivax exists in rural areas prone to migration from Central American countries. Sporadic P. vivax malaria cases are reported from specific parts of the country. "],
-    Equatorial_Guinea: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
+    "El Salvador" : ['WHO recommended prevention in risk areas: Type A', "Very limited malaria risk due almost exclusively to P. vivax exists in rural areas prone to migration from Central American countries. Sporadic P. vivax malaria cases are reported from specific parts of the country. "],
+    "Equatorial Guinea" : ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
     Eritrea: ['WHO recommended prevention in risk areas: Type C', "Malaria risk due to P. falciparum (65%) and P. vivax (35%) exists throughout the year in the entire country below 2200 m. There is no risk in Asmara. "],
     Ethiopia: ['WHO recommended prevention in risk areas: Type C', "Malaria risk due to approximately 60% P. falciparum and 40% P. vivax exists throughout the year in the entire country below 2000 m. P. vivax resistance to chloroquine reported. There is no malaria risk in Addis Ababa."],
-    French_Guiana: ['WHO recommended prevention in risk areas: Type C', "Malaria risk due to P. falciparum (45%) and P. vivax (55%) is high throughout the year in 9 municipalities\
+    "French Guiana" : ['WHO recommended prevention in risk areas: Type C', "Malaria risk due to P. falciparum (45%) and P. vivax (55%) is high throughout the year in 9 municipalities\
                 of the territory bordering Brazil(Oiapoque river valley) and Suriname(Maroni river valley).In the other 13 municipalities, transmission risk is low or negligible.Multidrug - resistant P.falciparum has been reported in\
                 areas influenced by Brazilian migration."],
     Gabon: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
@@ -91,7 +91,7 @@ the province of Esmeraldas as well as in the Amazon region, especially the provi
                 low in the rest of the departments(Chiquimula, Zacapa, Baja Verapaz, San Marcos, Peten, Jutiapa, Jalapa,\
                 El Progreso, Santa Rosa, Guatemala, Chimaltenango, Huehuetenango, and Quiche). "],
     Guinea: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
-    Guinea_Bissau: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
+    "Guinea-Bissau" : ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
     Guyana: ['WHO recommended prevention in risk areas: Type C', "Malaria risk due to P. vivax (36%), P. falciparum (53%), and mixed infections (11%) is high throughout the\
                 year in all parts of the interior.Risk is highest in regions 1 and 7 - 9, and very low in regions 3 - 6. Sporadic\
                 cases of malaria have been reported from the densely populated coastal belt."],
@@ -115,6 +115,7 @@ P.vivax resistance to chloroquine has been reported.Human P.knowlesi infection h
     Iraq: ['None', "Limited malaria risk due exclusively to P. vivax may exist from May through November in areas in the north\
 below 1500 m(Duhok, Erbil, and Sulaimaniya provinces).No indigenous cases have been reported since 2009. "],
     Kenya: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. Normally, there is little risk in the city of Nairobi and in the highlands (above 2500 m) of Central, Eastern, Nyanza, Rift Valley, and Western provinces"],
+    Laos: ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country except in Vientiane. "],
     Liberia: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
     Madagascar: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country, with the highest risk in coastal areas. "],
     Malawi: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
@@ -140,13 +141,14 @@ transmission of P.vivax takes place in 45 districts of the inner Terai and mid -
 municipalities, mainly in Región Autónoma del Atlántico Norte, with sporadic transmission also reported in Boaca, Chinandega, Jinoteca, Léon, and Matagalpa.Cases are reported from other municipalities in the\
 central and western departments but the risk in these areas is considered to be very low or negligible.Risk\
 due to P.falciparum is high mainly in Región Autónoma del Atlántico Norte, specifically in the municipalities of Rosita, Siuna, Bonanza, Puerto Cabezas, and Waspán.No chloroquine - resistant P.falciparum reported. "],
-    Niger: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
-    Nigeria: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
-    Oman: ['None', "Sporadic transmission of P. falciparum and P. vivax may occur subsequent to international importations of parasites. In 2010, local outbreaks of P. falciparum and P. vivax were reported in Ash Sharqiyah North Governorate. Local cases were also reported in 2011 and 2012. "],
+    Niger : ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
+    Nigeria : ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
+    "North Korea": ['WHO recommended prevention in risk areas: Type A ', "Limited malaria risk due exclusively to P. vivax exists mainly in the northern areas of Gangwon-do and Gyeonggi-do provinces and in Incheon City (towards the demilitarized zone or DMZ). "],
+    Oman : ['None', "Sporadic transmission of P. falciparum and P. vivax may occur subsequent to international importations of parasites. In 2010, local outbreaks of P. falciparum and P. vivax were reported in Ash Sharqiyah North Governorate. Local cases were also reported in 2011 and 2012. "],
     Pakistan: ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due to P. vivax and P. falciparum exists throughout the year in the entire country below 2000 m, especially in rural areas from July through December. "],
-    Panama: ['WHO recommended prevention in risk areas: Type B', 'in eastern endemic areas bordering Colombia: Type C ', "Malaria risk due predominantly to P. vivax (97%) exists throughout the year in the following provinces and\
+    Panama : ['WHO recommended prevention in risk areas: Type B', 'in eastern endemic areas bordering Colombia: Type C ', "Malaria risk due predominantly to P. vivax (97%) exists throughout the year in the following provinces and\
 comarcas along the Atlantic coast and the borders with Costa Rica and Colombia: Bocas del Toro, Chiriquí, Colón, Darién, Kuna Yala, Ngäbe Buglé, Panama, and Veraguas.In Panama City, the Canal Zone, and other provinces, the risk of malaria transmission is negligible or non - existent. "],
-    Papua_New_Guinea: ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country below 1800 m. P. vivax resistance to chloroquine has been reported.  "],
+    "Papua New Guinea": ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country below 1800 m. P. vivax resistance to chloroquine has been reported.  "],
     Paraguay: ['WHO recommended prevention in risk areas: Type A ', "No indigenous cases have been reported since 2012. Previous endemic departments due to P. vivax were in Alto Paraná, Canindeyú, and Caaguazú. "],
     Peru: ['WHO recommended prevention in risk areas: TypeB in P. vivax risk areas', 'C in Loreto Region. ', "Malaria risk due to P. vivax (84%) and P. falciparum (16%) exists throughout the year in rural areas in interAndean valleys below 2300 m and in the high and low Amazonian jungle regions. The 45 highest-risk\
 districts where the largest number of cases are concentrated are in the regions of Amazonas, Junin, San\
@@ -157,20 +159,19 @@ Benguet, Biliran, Bohol, Camiguin, Capiz, Catanduanes, Cavite, Cebu, Guimaras, I
 Southern Leyte, Marinduque, Masbate, Eastern Samar, Northern Samar, Western Samar, Siquijor, Sorsogon,\
 Surigao Del Norte, and metropolitan Manila.No risk is considered to exist in urban areas or in the plains.\
 Human P.knowlesi infection has been reported in the province of Palawan.  "],
-    Republic_Of_Korea: ['WHO recommended prevention in risk areas: Type A ', "Limited malaria risk due exclusively to P. vivax exists mainly in the northern areas of Gangwon-do and Gyeonggi-do provinces and in Incheon City (towards the demilitarized zone or DMZ). "],
-    Russian_Federation: ['None', "Very limited malaria risk due exclusively to P. vivax may exist in areas under the influence of intense\
+    Russia: ['None', "Very limited malaria risk due exclusively to P. vivax may exist in areas under the influence of intense\
 migration from southern countries of the Commonwealth of Independent States. "],
     Rwanda: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country."],
-    Sao_Tome_And_Principe: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
-    saudi_Arabia: ['WHO recommended prevention in risk areas: Type C ', "The country is in the pre-elimination phase of malaria. Local transmission is reported only in villages on the\
+    "São Tomé and Príncipe": ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
+    "Saudi Arabia": ['WHO recommended prevention in risk areas: Type C ', "The country is in the pre-elimination phase of malaria. Local transmission is reported only in villages on the\
 border with Yemen(except in the high - altitude areas of Asir Province) due predominantly to P.falciparum\
 and mainly from September through January.The infection rate is reduced to less than 0.3 cases / 100, 000 inhabitants.No risk exists in the cities of Mecca and Medina. "],
     Senegal: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. There is less risk from January through June in the central western regions. "],
-    Sierra_Leone: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
-    Solomon_Islands: ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due predominantly to P. falciparum exists throughout the year except in a few outlying eastern and southern islets. P. vivax resistance to chloroquine has been reported. "],
+    "Sierra Leone": ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
+    "Solomon Islands": ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due predominantly to P. falciparum exists throughout the year except in a few outlying eastern and southern islets. P. vivax resistance to chloroquine has been reported. "],
     Somalia: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. Risk is relatively low and seasonal in the north; it is higher in the central and southern parts of the country. "],
-    South_Africa: ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due predominantly to P. falciparum exists throughout the year in the low-altitude areas of Mpumalanga Province (including the Kruger National Park), Limpopo Province, and north-eastern KwaZulu-Natal Province. Risk is highest from October through May. "],
-    South_Sudan: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
+    "South Africa": ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due predominantly to P. falciparum exists throughout the year in the low-altitude areas of Mpumalanga Province (including the Kruger National Park), Limpopo Province, and north-eastern KwaZulu-Natal Province. Risk is highest from October through May. "],
+    "South Sudan": ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
     Sudan: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. Risk is low and seasonal in the north; it is higher in the central and southern parts of the country. Malaria risk on the Red Sea coast is very limited. "],
     Suriname: ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due to P. falciparum (40%), P. vivax (58%), and mixed infections (2%) continues to decrease in\
 recent years.Suriname is in the process of malaria elimination.Malaria occurs throughout the year in the\
@@ -180,7 +181,7 @@ transmission since 1968. P.falciparum resistance to mefloquine has reported.Some
 sensitivity has also been reported.\
 WHO recommended prevention "],
     Swaziland: ['WHO recommended prevention in risk areas: Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in all low veld areas (mainly Big Bend, Mhlume, Simunye, and Tshaneni). Risk is highest from November through May.  "],
-    Syrian_Arab_Republic: ['None', "Very limited malaria risk due exclusively to P. vivax may exist from May through October in foci along the northern border, especially in rural areas of El Hasaka Governorate. No indigenous cases have been reported since 2005, but the reporting system has been disrupted since 2010. "],
+    Syria: ['None', "Very limited malaria risk due exclusively to P. vivax may exist from May through October in foci along the northern border, especially in rural areas of El Hasaka Governorate. No indigenous cases have been reported since 2005, but the reporting system has been disrupted since 2010. "],
     Tajikistan: ['WHO recommended prevention in risk areas: Type A', "No indigenous cases of P. falciparum have been reported since 2009 and of P. vivax since 2015. Previous risk due predominantly to P. vivax existed (from June through October) particularly in southern areas\
             (Khatlon Region) and in some central(Dushanbe), western(Gorno - Badakhshan Autonomous Region), and northern(Leninabad Region) areas. "],
     Thailand: ['WHO recommended prevention in risk areas: Type A', 'in areas near Cambodia and Myanmar borders: Type C', "Malaria risk exists throughout the year in rural (especially forested and hilly) areas of the country, mainly\
@@ -190,11 +191,11 @@ However, there is a risk in some other areas and islands.P.falciparum resistance
 quinine has been reported from areas near the borders with Cambodia and Myanmar.Artemisinin resistance\
 has been reported near the border with Myanmar.P.vivax resistance to chloroquine has been reported\
 Human P.knowlesi infection has been reported.  "],
-    Timor_Leste: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country.  "],
+    "Timor-Leste": ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country.  "],
     Togo: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
     Turkey: ['None', "Local malaria transmission has been interrupted; no locally acquired cases have been reported since 2010. There is no malaria risk in the country. "],
     Uganda: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
-    United_Republic_Of_Tanzania: ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country below 1800 m. "],
+    Tanzania: ['WHO recommended prevention in risk areas: Type C ', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country below 1800 m. "],
     Uzbekistan: ['WHO recommended prevention in risk areas: Type A ', "Limited malaria risk due exclusively to P. vivax exists from June through October in some villages located in the southern and eastern parts of the country bordering Afghanistan, Kyrgyzstan, and Tajikistan. No locally acquired cases have been reported since 2011. "],
     Vanuatu: ['Type C', "Low to moderate malaria risk due predominantly to P. vivax exists throughout the year in most of the country. P. vivax resistance to chloroquine has reported. Malaria risk due to P. falciparum is still present. "],
     Venezuela: ['WHO recommended prevention in risk areas: Type B in P. vivax risk areas', 'Type C in P. falciparum risk areas', "Malaria risk due to P. vivax (74.6%) and P. falciparum (25.4%) is high throughout the year in some areas of\
