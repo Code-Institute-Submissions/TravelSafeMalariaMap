@@ -29,7 +29,7 @@ www.saude.gov.br / malaria. "],
     Brunei_Darussalam: ['Type B', "Human P. knowlesi infection has been reported. "],
     Burkina_Faso: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
     Burundi: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
-    Cabo_Verde: ['WHO recommended prevention in risk areas: Type A', "Limited malaria risk due predominantly to P. falciparum exists from August through November in Santiago Island and in Boa Vista Island. "],
+    "Cape Verde" : ['WHO recommended prevention in risk areas: Type A', "Limited malaria risk due predominantly to P. falciparum exists from August through November in Santiago Island and in Boa Vista Island. "],
     Cambodia: ['WHO recommended prevention in risk areas: Type C', "Malaria risk due to P. falciparum and P. vivax exists throughout the year in forested rural areas. Phnom Penh and areas close to Tonle Sap (Siem Reap) are not at risk. Risk within the tourist area surrounding\
                   Angkor Wat is negligible.P.falciparum resistance to artesunate, mefloquine, lumefantrine, and piperaquine has been reported in western Cambodia and extends to the centre of the country.\
                   P.vivax resistance to chloroquine has been reported in eastern Cambodia.  "],
@@ -266,7 +266,7 @@ function initMap() {
                 (place.address_components[2] && place.address_components[2].short_name || '')
             ].join(' ');
         }
-        infowindow.setContent('<div><strong>' + place.name + '</strong><br>' + address + prevention[place.name].join("<br>"));
+        infowindow.setContent('<div><strong>' + place.name + address + prevention[place.name].join("<br>") + '</strong><br>');
         infowindow.open(map, marker);
         //Location details
         for (var i = 0; i < place.address_components.length; i++) {
