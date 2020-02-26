@@ -1,4 +1,16 @@
-.fas fa-syringe {
+.navbar-brand i {
+    color: #fafafa;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #6da783;
+    border-radius: 50%;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
     
 }
 .navbar-nav {
