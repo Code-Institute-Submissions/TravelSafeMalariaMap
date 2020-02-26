@@ -51,12 +51,22 @@ Maps Javascript API is a library that was used in order to add a map on the page
 1.All HTML and CSS code used on the site has been tested using
 [The W3 CSS Validation Service](https://jigsaw.w3.org/css-validator/) and
 [The W3 Markup Validation Service](https://validator.w3.org/).
-The W3C shows that we conform to the standards of HTML and CSS. 
+The W3C shows that we meet the standards of HTML and CSS. 
 
 2.Prototype code was written and tested using Gitpod and Chrome Developer Tools.
 
 3.All Javascript and jQuery code on the website has been tested using [JSHint](https://jshint.com/).
-Thanks to that app I found out how to split strings into shorter lines by using '\'.
+Thanks to that app I found out how to split strings into shorter lines by using '\'. Also it says there is one unused
+variable (on the js file row 230 initMap) and one undefined variable (231	google
+237	google
+238	google
+240	google
+241	google
+243	google
+264	google
+265	google
+266	google
+267	google), but these are not causing any errors so they were left like this.
 
 4.Site was viewed and tested in Google Chrome, Mozilla Firefox and Internet Explorer.
 

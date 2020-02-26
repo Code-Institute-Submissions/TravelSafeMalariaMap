@@ -1,3 +1,4 @@
+/*jshint multistr: true */
 var prevention = {
     Afghanistan: ['Recommendedpreventioninriskareas: Type C', 'Malaria risk due to P. falciparum and P. vivax exists from May through November below 2000 m. '],
     Algeria: ['Malaria risk is limited, with mainly imported cases. No confirmed indigenous cases have been reported since 2014. '],
@@ -239,7 +240,7 @@ function initMap() {
             window.alert("Autocomplete's returned place contains no geometry");
             return;
         }
-        
+
         // If the place has a geometry, then present it on a map.
         if (place.geometry.viewport) {
             map.fitBounds(place.geometry.viewport);
