@@ -8,12 +8,12 @@ The aim of my project is to show the user what type of prevention it is recommen
 
 The goal of the project is to be informative and easy to read.
 Different colors are used to illustrate the three types of prevention types of prevention measures. From green to orange the colors illustrate
-the transition from simple prevention method sto more advannced ones.
-
+the transition from simple prevention methods to more advanced ones.
+ 
 ----
 ## Wireframe
 
-The wireframe for this project is under images folder.
+The wireframes for this project is under images folder.
 
 ----
 ## Features
@@ -21,6 +21,7 @@ The wireframe for this project is under images folder.
 * First feature is the user insput to select a country.
 * Second feature is zooming in the selected country on the map.
 * Third feature is displaying the type of prevention and malaria risk in that country.
+* Fourth is having the navbar and option to go to read information about Malria.
 
 ----
 ## Technologies used
@@ -84,5 +85,11 @@ The initial idea of the project came from visiting this
 [website](https://www.vaktsineeri.ee/reisivaktsineerimine-ja-profulaktika).
 The code for getting the autocomplete places search box for user input I found
 [here](https://www.semicolonworld.com/tutorial/autocomplete-places-search-box-google-maps-javascript-api).
+
+----
+## Acknowledgements
+
+My thanks go to my tutor Xavier and other tutors who helped me patiently and with this project from Code Institute.
+
 
 ----
