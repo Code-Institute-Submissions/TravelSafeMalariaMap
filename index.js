@@ -1,22 +1,45 @@
 /*jshint multistr: true */
 var prevention = {
-    Afghanistan: ['Recommendedpreventioninriskareas: Type C', 'Malaria risk due to P. falciparum and P. vivax exists from May through November below 2000 m. '],
+    Afghanistan: ['Recommendedpreventioninriskareas: Type C',
+    'Malaria risk due to P. falciparum and P. vivax exists from May through November below 2000 m. ',
+    'typeC'],
+
     Algeria: ['Malaria risk is limited, with mainly imported cases. No confirmed indigenous cases have been reported since 2014. '],
-    Angola: ['Type C', "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. "],
-    Argentina: ['WHO recommended prevention in risk areas: Type A', "No indigenous cases have been reported since 2011. Previous endemic areas due to P. vivax were located in Salta, Corrientes, and Misiones provinces. "],
-    Azerbaijan: ['WHO recommended prevention in risk areas: Type A', "MalariariskdueexclusivelytoP.vivaxexistsfromJunetoOctoberinclusiveinlowlandareas,mainlyintheareabetweentheKuraandAraxrivers.ThereisnomalariatransmissioninBakucity(thecapitalcity).Nolocallyacquiredcaseswerereportedin2013."],
+
+    Angola: ['Type C',
+    "Malaria risk due predominantly to P. falciparum exists throughout the year in the entire country. ",
+    'typeC'],
+
+    Argentina: ['WHO recommended prevention in risk areas: Type A', "No indigenous cases have been reported since 2011. Previous endemic areas due to P. vivax were located in Salta, Corrientes, and Misiones provinces. ",
+    'typeA'],
+
+    Azerbaijan: ['WHO recommended prevention in risk areas: Type A', "MalariariskdueexclusivelytoP.vivaxexistsfromJunetoOctoberinclusiveinlowlandareas,mainlyintheareabetweentheKuraandAraxrivers.ThereisnomalariatransmissioninBakucity(thecapitalcity).Nolocallyacquiredcaseswerereportedin2013.",
+    'typeA'],
+
     Bangladesh: ['WHO recommended prevention in risk areas: Type C', 'Malariariskexists throughouttheyear,buttransmissionoccursonlyinruralareas,\
         in13of64districts.TheriskishighinChittagongHillTractdistricts (Bandarban, RangamatiandKhagrachari), ChittagongdistrictandCoxBazaardistrict.\
                   Lowriskexistsin thedistrictsofHobigonj, Kurigram, Moulvibazar, Mymensingh, Netrakona, Sherpur, SunamgonjandSylhet.Mostpartsofthecountry, includingDhakaCity,\
-                  havenoriskofmalaria.'],
-    Belize: ['WHO recommended prevention in risk areas: Type A', "MalariariskduepredominantlytoP.vivaxpresentsinsomeareasofStanCreekandnegligibleelsewhere."],
-    Benin: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
+                  havenoriskofmalaria.', 
+                'typeC'],
+
+    Belize: ['WHO recommended prevention in risk areas: Type A', "MalariariskduepredominantlytoP.vivaxpresentsinsomeareasofStanCreekandnegligibleelsewhere.",
+    'typeA'],
+
+    Benin: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry.",
+'typeC'],
+
     Bhutan: ['WHO recommended prevention in risk areas and seasons: Type C', "Malaria risk exists throughout the year in the southern belt of the country comprising\
  seven districts:  Chukha,  Dagana,  Pemagatshel,  Samdrup, Jonkhar, Samtse, SarpangandZhemgang.Notransmissionoccurs\
-inthefourfollowingdistricts: Bumthang, Gasa, ParoandThimphu.Seasonaltransmissionduringtherainysummermonthsoccursinfocalareastherestofthecountry."],
+inthefourfollowingdistricts: Bumthang, Gasa, ParoandThimphu.Seasonaltransmissionduringtherainysummermonthsoccursinfocalareastherestofthecountry.",
+'typeC'],
+
     Bolivia: ['WHO recommended prevention in risk areas: Type B', "Malaria risk due almost exclusively to P. vivax (99.9%) exists throughout the year in the entire country\
-                  below 2500 m.The risk of malaria is highest in the northern departments of Beni and Pando, especially in the localities of Riberalta, Guayaramerín, and Sena. "],
-    Botswana: ['WHO recommended prevention in risk areas: Type C', "Malaria risk due predominantly toP.falciparum exists from November toMay/June in the northern parts of the country: Bobirwa, Boteti,Chobe,Ngamiland,Okavango,Tutumedistricts/sub-districts."],
+                  below 2500 m.The risk of malaria is highest in the northern departments of Beni and Pando, especially in the localities of Riberalta, Guayaramerín, and Sena.",
+                'typeB'],
+
+    Botswana: ['WHO recommended prevention in risk areas: Type C', "Malaria risk due predominantly toP.falciparum exists from November toMay/June in the northern parts of the country: Bobirwa, Boteti,Chobe,Ngamiland,Okavango,Tutumedistricts/sub-districts.",
+'typeC'],
+
     Brazil: ['WHO recommended prevention in risk areas: Type B in P. vivax risk areas', 'Type C in P. falciparum risk areas ', "Malaria risk due to P. vivax (88.8%), P. falciparum (10.6%), and mixed infections (0.5%) exists in most\
                     forested areas below 900 m within the nine states of the Amazon region(Acre, Amapá, Amazonas,\
                     Maranhão, Mato Grosso[northern part], Pará[except Belém City], Rondônia, Roraima and Tocantins\
@@ -26,7 +49,8 @@ Macapá, Maraba, Rio Branco, and Santarém.In the states outside the administrat
 the risk of malaria transmission is negligible or non - existent, but there is a residual risk of P.vivax\
 transmission in Atlantic forest areas of the states of São Paulo, Minas Gerais, Rio de Janeiro, and Espirito\
 Santo.Detailed information on the epidemiological situation of malaria in Brazil is available at\
-www.saude.gov.br / malaria. "],
+www.saude.gov.br / malaria.",
+'typeB, typeC'],
     Brunei : ['Type B', "Human P. knowlesi infection has been reported. "],
     "Burkina Faso": ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
     Burundi: ['Type C', "MalariariskduepredominantlytoP.falciparumexiststhroughouttheyearinthewholecountry."],
@@ -266,9 +290,11 @@ function initMap() {
                 (place.address_components[2] && place.address_components[2].short_name || '')
             ].join(' ');
         }
-        infowindow.setContent('<div><strong>' + place.name + address + prevention[place.name].join("<br>") + '</strong><br>');
+
+        infowindow.setContent('<div><strong><h2>' + place.name +'</h2></strong><br>' + "<div id="+prevention[place.name][2]+">" + prevention[place.name].join("<br>"));
         infowindow.open(map, marker);
         //Location details
+
         for (var i = 0; i < place.address_components.length; i++) {
             if (place.address_components[i].types[0] == 'postal_code') {
                 document.getElementById('postal_code').innerHTML = place.address_components[i].long_name;
