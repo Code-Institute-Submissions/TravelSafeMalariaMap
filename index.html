@@ -26,7 +26,7 @@
 	<link rel="stylesheet" type="text/css" href="index.css">
 
 
-	<title>TravelsafeVaccinationmap</title>
+	<title>TravelsafeMalariaMap</title>
 
 </head>
 
@@ -34,8 +34,8 @@
 	<header class="container-fluid">
 		<nav class="navbar navbar-expand-lg nav-footer-color navbar-light fixed-top">
 			<a class="navbar-brand" href="index.html">
-				<i class="fas fa-syringe"></i>
-				<span class="navbar-brand-text">Travel Vaccination</span>
+				<i class="fas fa-suitcase-rolling"></i>
+				<span class="navbar-brand-text">Travel Safe Malaria Map</span>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -43,28 +43,27 @@
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				<div class="navbar-nav">
 					<a class="nav-item nav-link" href="index.html">Home</a>
-					<a class="nav-item nav-link" href="vaccination.html">Information</a>
+					<a class="nav-item nav-link" href="vaccination.html">Information about Malaria</a>
 				</div>
 			</div>
 		</nav>
 	</header>
 	<div class="jumbotron jumbotron-fluid">
 		<div class="container">
-			<h2>Travel Safe-Vaccination Map</h2>
-			<h5>Vaccination recommendations depend on the type of trip planned and how long it will take. Based on this
-				and the risk of infection, trips are divided into four groups:</h5>
+			<h2>Travel Safe-Malaria Map</h2>
+			<h5>Prevention types for Malaria:</h5>
 			<div class="row">
 				<div class="col-3 groups">
 					<ul>
 						<li id="one">
-							<h6>Group 1</h6>
+							<h6>Type A </h6>
 						</li>
 					</ul>
 				</div>
 				<div class="col-9 groups">
 					<ul>
 						<li id="first">
-							<h6>Business or conference trips to the capital or larger cities for a few days.</h6>
+							<h6>Mosquitobitepreventiononly</h6>
 						</li>
 					</ul>
 				</div>
@@ -73,15 +72,18 @@
 				<div class="col-3 groups">
 					<ul>
 						<li id="two">
-							<h6>Group 2</h6>
+							<h6>Type B</h6>
 						</li>
 					</ul>
 				</div>
 				<div class="col-9 groups">
 					<ul>
 						<li id="second">
-							<h6>Tourist trips of up to 4 weeks duration, visiting countryside with poor hygiene
-								conditions.</h6>
+							<h6>Mosquito-bite prevention plus chloroquine,
+or doxycycline or atovaquone-proguanil or
+mefloquine chemoprophylaxis (select
+according to drug resistance pattern, reported
+side effects, and contraindications)</h6>
 						</li>
 					</ul>
 				</div>
@@ -90,64 +92,66 @@
 				<div class="col-3 groups">
 					<ul>
 						<li id="three">
-							<h6>Group 3</h6>
+							<h6>Type C</h6>
 						</li>
 					</ul>
 				</div>
 				<div class="col-9 groups">
 					<ul>
 						<li id="third">
-							<h6>Trips of several months or visiting relatives.</h6>
+							<h6>Mosquito-bite prevention plus atovaquoneproguanil or doxycycline or mefloquine
+chemoprophylaxis (select according to drugresistance pattern, reported side effects, and
+contraindications)</h6>
 						</li>
 					</ul>
 				</div>
 			</div>
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-3 groups">
 					<ul>
 						<li id="four">
-							<h6>Group 4</h6>
+							<h6>Type D</h6>
 						</li>
 					</ul>
 				</div>
 				<div class="col-9 groups">
 					<ul>
 						<li id="fourth">
-							<h6>Stays of more than half a year or repeated visits to a risk area.</h6>
+							<h6>Mosquitobitepreventionplusatovaquone–proguanilordoxycyclineormefloquinechemoprophylaxis
+                            (selectaccordingtoreporteddrugresistancepattern,side-effectsandcontraindications)</h6>
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div> -->
 		</div>
 	</div>
-	<p>Search by country name to find out what vaccines are recommended:</p>
+	<p>Search by country name to find out what is the Malaria risk and what type of prevention is recommended in your selected destination:</p>
 	<!-- <form autocomplete="off" action="/action_page.php">
 				<div class="autocomplete" style="width:300px;">
 					<input id="myInput" type="text" name="myCountry" placeholder="Country"> -->
 
 	<!-- added as a reference to maybe use for re-submitting 13.01.2019 from https://github.com/jakearchibald/payments/blob/master/www/checkout.html -->
 
-    <input id="searchInput" class="controls" type="text" placeholder="Enter a location">
-    <div id="map"></div>
-    <ul id="geoData">
-    <li>Full Address:
-    <span id="location"></span>
-    </li>
-    <li>Postal Code:
-    <span id="postal_code"></span>
-    </li>
-    <li>Country:
-    <span id="country"></span>
-    </li>
-    <li>Latitude:
-    <span id="lat"></span>
-    </li>
-    <li>Longitude:
-    <span id="lon"></span>
-    </li>
-    </ul> 
-	<div id="map">
-    </div>
+	<input id="searchInput" class="controls" type="text" placeholder="Enter a location">
+	<div id="map"></div>
+	<ul id="geoData">
+		<li>Full Address:
+			<span id="location"></span>
+		</li>
+		<li>Postal Code:
+			<span id="postal_code"></span>
+		</li>
+		<li>Country:
+			<span id="country"></span>
+		</li>
+		<li>Latitude:
+			<span id="lat"></span>
+		</li>
+		<li>Longitude:
+			<span id="lon"></span>
+		</li>
+	</ul>
+
 
 	<footer class="container-fluid">
 		<div id="footer-details" class="row nav-footer-color">
@@ -155,12 +159,12 @@
 				<h5 class="general-sub">Links to reference pages:</h5>
 			</div>
 			<div class="col-md-4 col-sm-1 offset-sm-1">
-				<h5 class="general-sub">Vaktsineeri.ee</h5>
+				<h5 class="general-sub">who.int</h5>
 				<p class="inline-block">
 					<a target="_blank" aria-label="Link to Vaktsineeri.ee" rel="noopener"
-						href="https://www.vaktsineeri.ee/en/travel-vaccination">
+						href="https://www.who.int/ith/ith-country-list.pdf?ua=1">
 						<i class="fas fa-external-link-square-alt" aria-hidden="true"></i>
-						<span class="sr-only">Vaktsineeri.ee</span>
+						<span class="sr-only">who.inte</span>
 					</a>
 				</p>
 			</div>
@@ -189,11 +193,12 @@
 		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
 	</script>
 	<script src="index.js"></script>
-    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
-    </script>
+	<script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js">
+	</script>
 	<script async defer
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCi8hsqT_zzHgVYqkK5KBGKve9gi8HPXQs&libraries=places&callback=initMap">
 	</script>
 
 </body>
+
 </html>

@@ -1,3 +1,6 @@
+.fas fa-syringe {
+    
+}
 .navbar-nav {
     text-align: center
 }
@@ -138,7 +141,6 @@ h5 {
 }
 
 p {
-
     margin-top: 20px;
     opacity: 0.6;
     font-size:17px;
@@ -204,16 +206,16 @@ h6 {
 #three  {
     padding: 8px;
     margin-bottom: 7px;
-    background-color: #fec771;
+    background-color: #eb7070;
     color: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 #three:hover {
-    background-color: #e9cc9d;
+    background-color: #eba8a8;
 }
 
-#four  {
+/* #four  {
     padding: 8px;
     margin-bottom: 7px;
     background-color: #eb7070;
@@ -223,7 +225,7 @@ h6 {
 
 #four:hover {
     background-color: #eba8a8;
-}
+} */
 
 #first {
     padding: 8px;
@@ -245,17 +247,17 @@ h6 {
     padding: 8px;
     margin-bottom: 7px;
     background-color: #86af94b2;
-    color: #fcab29;
+    color: #f33535b9;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-#fourth {
+/* #fourth {
     padding: 8px;
     margin-bottom: 7px;
     background-color: #86af94b2;
     color: #f33535b9;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-}
+} */
 
 /* .autocomplete {
     position: relative;
@@ -280,6 +282,26 @@ input[type=submit] {
     color: #fff;
     cursor: pointer;
 }
+
+#geoData {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* border-collapse: separate;
+    border-spacing: 10px; */
+
+    /* border: 2px solid #3b3a3a;
+    border-radius: 5px;
+    border-width: flex; */
+
+}
+
+/* #geoData li { */
+    /* border-bottom: 2px solid #757777;
+    border-collapse: collapse; */
+    /* border: solid black;
+
+} */
+
 
 /* .autocomplete-items {
     position: absolute;
@@ -328,20 +350,21 @@ footer {
     width: 35px;
     height: 35px;
 }
+
 @media (min-width:992px) {
 
-    .footer-links li a i {
-        color: #fafafa;
-        font-size: 25px;
-        text-align: center;
-        padding: 5px;
-        width: 40px;
-        height: 40px;
-        border: 3px solid #6da783;
-        border-radius: 50%;
-        transition: all 0.35s ease-in-out;
-        -o-transition: all 0.35s ease-in-out;
-        -moz-transition: all 0.35s ease-in-out;
-        -webkit-transition: all 0.35s ease-in-out;
-    }
+.footer-links li a i {
+    color: #fafafa;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #6da783;
+    border-radius: 50%;
+    transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
 

@@ -1,14 +1,14 @@
 # Travel safe-Vaccination map
 
-The aim of my project is to show the user what vaccines are recommended to take before going
-to a specific country. It uses the google map to show where this country is.
+The aim of my project is to show the user what type of prevention it is recommended in different countries.
+ It uses the google map to show where this country is.
 
 ----
 ## UX
 
 The goal of the project is to be informative and easy to read.
-Different colors are used to illustrate the four groups of vaccines. From green to red the colors illustrate
-the transition from smaller amount of vaccines to bigger amount.
+Different colors are used to illustrate the three types of prevention types of prevention measures. From green to orange the colors illustrate
+the transition from simple prevention method sto more advannced ones.
 
 ----
 ## Wireframe
@@ -19,12 +19,8 @@ The wireframe for this project is under images folder.
 ## Features
 
 * First feature is the user insput to select a country.
-* Second feature is zooming in the selected country on the map (in the process).
-* Third feature is displaying the vaccination list needed before going to that country (in the process).
-
-* Features Left To Implement:
-1.Get all the countries in the search option and to show their required vaccines.
-2.Finish what had yet to implement.
+* Second feature is zooming in the selected country on the map.
+* Third feature is displaying the type of prevention and malaria risk in that country.
 
 ----
 ## Technologies used
@@ -60,20 +56,23 @@ The W3C shows that we conform to the standards of HTML and CSS.
 2.Prototype code was written and tested using Gitpod and Chrome Developer Tools.
 
 3.All Javascript and jQuery code on the website has been tested using [JSHint](https://jshint.com/).
+Thanks to that app I found out how to split strings into shorter lines by using '\'.
 
 4.Site was viewed and tested in Google Chrome, Mozilla Firefox and Internet Explorer.
 
 ----
 ## Deployment
  
-The hosting platform for this site is GitHub. Here is the link for my site https://martakortslaur.github.io/TravelsafeVaccinationmap/. 
+The hosting platform for this site is GitHub. Here is the link for my site https://martakortslaur.github.io/TravelsafeVaccinationmap/. It is still under that
+webpage name, but I changed it to Travel Safe Malaria Map, because there wasn't available json or other format files for the four groups of vaccines
+and I chose something that is available in a pdf form and typed the data to my code myself.
 
 ----
 ## Credits
 
-The idea of the project came from visiting this
+The initial idea of the project came from visiting this
 [website](https://www.vaktsineeri.ee/reisivaktsineerimine-ja-profulaktika).
-The code for getting the autocomplete select box for user input I found
-[here](https://www.w3schools.com/howto/howto_js_autocomplete.asp).
+The code for getting the autocomplete places search box for user input I found
+[here](https://www.semicolonworld.com/tutorial/autocomplete-places-search-box-google-maps-javascript-api).
 
 ----
