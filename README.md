@@ -1,4 +1,4 @@
-# Travel safe-Vaccination map
+# Travel safe-Malaria map
 
 The aim of my project is to show the user what type of prevention it is recommended in different countries.
  It uses the google map to show where this country is.
